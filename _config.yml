@@ -1,21 +1,10 @@
-title: "Rok Sim"
-description: ""
-baseurl: ""
-url: https://rsim89.github.io/
+title: Rok Sim
+description: University of South Carolina
+url: https://rsim89.github.io
+author: Rok Sim
+permalink: pretty
 
 theme: cvless
-
-# site settings
-taglong: Rok Sim's personal webpage
-tagshort: RokSim
-
-# author settings
-author:
-  name: Rok Sim
-  email: rsim@email.sc.edu
-photo: assets/files/roksim.jpg
-address: Foobar Hall 1.23
-phone: +1 803 201 0717
 
 exclude:
   - demo/
