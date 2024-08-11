@@ -1,4 +1,12 @@
 <div id="particles-js" class="fullscreen">
+
+  <div class="float-md-start mb-0">
+        <a class="h3 text-decoration-none" href="/">
+            <span class="fw-light">{{ site.author | split: " " | first }}</span>
+            <span class="fw-semibold">{{ site.author | split: " " | last }}</span>
+        </a>
+    </div>
+  
   <div class="jumbotron text-center">
     <img src="{{ 'assets/files/sim.photo.jpg' | relative_url }}" class="mx-auto mb-5 rounded-circle w-50" alt="{{ site.author }}" loading="lazy" />
     <h1 class="particles-title" style="font-size: 2rem;/* Adjust size as needed */margin-bottom: 30px; /* Adjust this value to increase or decrease the space */">{{ site.author }}</h1>
