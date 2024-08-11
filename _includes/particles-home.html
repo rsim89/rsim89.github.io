@@ -7,7 +7,7 @@
     {% for link in links %}
     {% unless link.name contains 404 %}
     {% if link.url == page.url %}
-    <a class="nav-link fw-bold py-1 active" aria-current="page" href="{{ link.url }}" style="color: white;">{{ link.title | upcase }}</a>
+    <a class="nav-link fw-bold py-1 px-1 active" aria-current="page" href="{{ link.url }}" style="color: white;">{{ link.title | upcase }}</a>
     {% endif %}
     {% endunless %}
     {% endfor %}
@@ -16,7 +16,7 @@
     {% for link in links %}
     {% unless link.name contains 404 %}
     {% if link.url != page.url %}
-    <a class="nav-link fw-bold py-1" href="{{ link.url }}" style="color: white;">{{ link.title | upcase }}</a>
+    <a class="nav-link fw-bold py-1 px-1" href="{{ link.url }}" style="color: white;">{{ link.title | upcase }}</a>
     {% endif %}
     {% endunless %}
     {% endfor %}
