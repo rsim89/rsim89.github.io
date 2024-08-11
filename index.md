@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-# Who am I?
+# About
 
 {: .lead .mb-3 }
 I am a Ph.D. student in the Linguistics Program at <a href="https://sc.edu/study/colleges_schools/artsandsciences/linguistics">USC</a>.​ 
