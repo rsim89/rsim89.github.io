@@ -1,6 +1,6 @@
 ---
 layout: home
-title: About
+title: home
 ---
 
 # Who am I?
