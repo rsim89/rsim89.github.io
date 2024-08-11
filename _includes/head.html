@@ -1,25 +1,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <h1 class="page-title">
-      {% if page.layout == "home" %}
-      {{ site.title }}
-      {% else %}
-      {{ site.title }} &middot; {{ page.title }}
-      {% endif %}
-  </h1>
   
-/* Title color for the home page */
-body.home .page-title {
-    color: white;
-}
-
-/* Title color for other pages */
-body.not-home .page-title {
-    color: white;
-}
-    
   <title>
     {% if page.layout == "home" %}
     {{ site.title }}
