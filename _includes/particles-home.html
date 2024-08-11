@@ -1,13 +1,18 @@
 <div id="particles-js" class="fullscreen">
 
-  <div class="jumbotron text-center" style="background: #f8f9fa; padding-top: 20px;">
-  <a class="h3 text-decoration-none" href="/" style="color: #333; font-size: 2rem;">
-  <span class="fw-light">{{ site.author | split: " " | first }}</span>
-  <span class="fw-light">{{ site.author | split:
-    
-    " " | last }}</span>
-  </a>
-  </div>
+<nav class="nav nav-masthead justify-content-center float-md-end">
+    {% assign links = site.pages | where_exp: "page", "page.name contains '.md'" %}
+    {% for link in links %}
+    {% unless link.name contains 404 %}
+    {% if link.url == page.url %}
+    <a class="nav-link fw-bold fst-italic py-1 px-0 active" aria-current="page" href="{{ link.url }}">{{ link.title | upcase }}</a>
+    {% else %}
+    <a class="nav-link fw-bold fst-italic py-1 px-0" href="{{ link.url }}">{{ link.title | upcase }}</a>
+    {% endif %}
+    {% endunless %}
+    {% endfor %}
+    <a class="nav-link fw-bold fst-italic py-1 px-0" href="{{ 'cv.pdf' | relative_url }}">CV</a>
+</nav>
   
     <div class="jumbotron text-center">
     <img class="particles-photo" src="assets/files/sim.photo.jpg" /> 
