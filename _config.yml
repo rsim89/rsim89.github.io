@@ -4,8 +4,6 @@ url: https://rsim89.github.io
 author: Rok Sim
 permalink: pretty
 
-theme: cvless
-
 exclude:
   - demo/
   - cvless.gemspec
