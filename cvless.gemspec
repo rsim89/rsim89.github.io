@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "cvless"
+  spec.name          = "rsim89"
   spec.version       = "2.2.0"
-  spec.authors       = ["piazzai"]
-  spec.email         = ["42124135+piazzai@users.noreply.github.com"]
+  spec.authors       = ["rsim89"]
+  spec.email         = ["rsim@emil.sc.edu"]
 
-  spec.summary       = "Jekyll theme for a beautiful online CV "
-  spec.homepage      = "https://github.com/piazzai/cvless"
+  spec.summary       = "Rok Sim"
+  spec.homepage      = "https://rsim89.github.io/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
