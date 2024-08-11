@@ -2,6 +2,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <h1 class="page-title">
+      {% if page.layout == "home" %}
+      {{ site.title }}
+      {% else %}
+      {{ site.title }} &middot; {{ page.title }}
+      {% endif %}
+  </h1>
+  
+  <body class="{% if page.layout == 'home' %}home{% else %}not-home{% endif %}">
+/* Default title color for all pages */
+.page-title {
+    color: black; /* Default color */
+}
+
+/* Title color for the home page */
+body.home .page-title {
+    color: white;
+}
+
+/* Title color for other pages */
+body.not-home .page-title {
+    color: white;
+}
+    
   <title>
     {% if page.layout == "home" %}
     {{ site.title }}
@@ -9,7 +33,7 @@
     {{ site.title }} &middot; {{ page.title }}
     {% endif %}
   </title>
-
+ 
   <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | prepend: site.url }}">
   <link rel="stylesheet" href="{{ '/assets/css/open-color.min.css' | prepend: site.url }}">
   <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | prepend: site.url }}">
