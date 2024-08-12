@@ -4,7 +4,7 @@ title: Teaching
 ---
 
 ### University of South Carolina (Fall 2023 - present)
-
+- **Fall 2024**: Elementary Korean 121 (Instructor)
 - **Spring 2024**: Elementary Korean 121 (Instructor), Basic Proficiency in Korean 122 (Instructor)
 - **Fall 2023**: Elementary Korean 121 (Instructor)
 
