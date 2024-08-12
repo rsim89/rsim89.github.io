@@ -6,7 +6,7 @@ title: Home
 # About
 
 {: .lead .mb-3 }
-I am a Ph.D. student in the Linguistics Program at <a href="https://sc.edu/study/colleges_schools/artsandsciences/linguistics">USC (University of South Carolina)</a>.​ 
+I am a Ph.D. student in the Linguistics Program at <a href="https://sc.edu/study/colleges_schools/artsandsciences/linguistics">University of South Carolina</a>(USC).​ 
 
 {: .lead .mb-3 }
 My research focuses on the interface of syntax, semantics, and pragmatics. ​Currently, I am working on Polarity Sensitive Items, Complement Patterns, Pseudo Passive Constructions, using corpus and experimental methods.
