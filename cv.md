@@ -9,8 +9,8 @@ title: CV
 - **2014** | Kyung Hee University, South Korea (B.A)
 
 ### Scholarship & Award
-- **2019-present** | Graduate Assistant Scholarship, University of South Carolina
-- **2014-2017** | Research Assistant Scholarship, Kyung Hee University
+- **2019-present** | Graduate Assistant, University of South Carolina
+- **2014-2017** | Research Assistant, Kyung Hee University
 
 ### Affiliation
 
