@@ -3,22 +3,22 @@ layout: cv
 title: CV
 ---
 
-## Education
+### Education
 - **2019-present** | University of South Carolina
 - **2017** | Kyung Hee University, South Korea (M.A)
 - **2014** | Kyung Hee University, South Korea (B.A)
 
-## Scholarship & Award
+### Scholarship & Award
 - **2019-present** | Graduate Assistant, University of South Carolina
 - **2014-2017** | Research Assistant, Kyung Hee University
 
-## Affiliation
+### Affiliation
 
 - **2018-present** | Linguistic Society of America (LSA)
 - **2019-2022** | Instructor, Korean School of Columbia
 - **2017-2019** | Institute for the Study of Language and Information (ISLI)
 
-## Language & Tool
+### Language & Tool
 
 - **Languages:** Korean (native), English (fluent)
 - **Experiment Tools:** PCIbex, PsychoPy
