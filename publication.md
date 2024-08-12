@@ -3,7 +3,7 @@ layout: publication
 title: PUB
 ---
 
-## Paper
+### Paper
 
 - **2023 (accepted).** Kim, Jungsoo and Rok Sim. "A collostructional and constructional approach to the transitive out of -ing construction." *English Studies*. [A&HCI]
 
@@ -15,7 +15,7 @@ title: PUB
 
 - **2015.** Sim, Rok and Jong-Bok Kim. "The transitive out-of V-ing construction in English: A corpus-based study (in Korean)." *The Linguistic Association of Korea Journal* 23(4): 189-210. [KCI]
 
-## Proceedings
+### Proceedings
 
 - **2023 (In press).** Sim, Rok and Stanley Dubinsky. "Two classes of ‘anyone’: A contrastive analysis of amwuto and nwukwuto in Korean." *Penn Working Papers in Linguistics (PWPL)* volume 30.1.
 
@@ -25,7 +25,7 @@ title: PUB
 
 - **2018.** Nykiel, Joanna, Jong-Bok Kim, Rok Sim, and Okgi Kim. "Morphosyntactic form of Korean fragments is relevant to their resolution." *Proceedings of the Linguistic Society of America* 27(3): 1-14.
 
-## In Progress
+### In Progress
 
 - **(Under revision).** Blanchette, Frances, Stanley Dubinsky, Rok Sim, Amanda Harman. "This construction needs understood: An experimental study of the Vernacular Verbal Passive." *American Speech*. [A&HCI] [SSCI]
 
