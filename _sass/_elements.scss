@@ -9,6 +9,17 @@ a.site-title {
   }
 }
 
+a.page-title {
+  font-weight: 500;
+  color: var(--color-heading);
+
+  &:focus,
+  &:hover {
+    border-color: inherit;
+    color: inherit;
+  }
+}
+
 .toggle-bar {
   display: flex;
   justify-content: end;
