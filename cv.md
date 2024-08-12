@@ -20,6 +20,6 @@ title: CV
 
 ### Language & Tool
 
-- **Languages:** Korean (native), English (fluent)
-- **Experiment Tools:** PCIbex, PsychoPy
-- **Programming:** LaTeX, R, Python
+- **Languages** | Korean (native), English (fluent)
+- **Experiment Tools** | PCIbex, PsychoPy
+- **Programming** | LaTeX, R, Python
