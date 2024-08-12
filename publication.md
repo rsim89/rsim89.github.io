@@ -1,6 +1,6 @@
 ---
-layout: cv
-title: CV
+layout: publication
+title: PUB
 ---
 
 # Curriculum Vitæ
