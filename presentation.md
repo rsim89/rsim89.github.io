@@ -3,8 +3,6 @@ layout: presentation
 title: Presentation
 ---
 
-### Presentation
-
 - **2024 (forthcoming).** Sim, Rok, Drew Crosby, and D Eric Holt. "A vestige-theory approach to the variable assimilation pattern in Korean nasal-liquid Sequences." A poster presented at Linguistic Society of America 98 (Celebrating 100 Years of Advancing the Scientific Study of Language), January 4-7, New York, N.Y.
 
 - **2023 (forthcoming).** Sim, Rok, Drew Crosby, and D Eric Holt. "The effect of age, morphological structure, and syllable-count on the realization of Korean nasal-liquid sequences." A talk presented at The 2023 Linguistic Society of Korea Winter Conference, December 9, Kyung Hee University.
