@@ -1,35 +1,19 @@
-title: ""
-description: ""
-baseurl: ""
-url: ""
-
-exclude:
-  - demo/
-  - cvless.gemspec
-  - LICENSE
-  - README.md
-  - screenshot.png
-
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate-v2
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-sass:
-  style: compressed
-  sourcemap: never
-
-feed:
-  path: atom.xml
-
-autopages:
-  enabled: false
-
-pagination:
-  enabled: true
-  per_page: 1
-  sort_reverse: true
-  permalink: /:num/
-  title: ":title &middot; Page :num"
+icons:
+  - title: Google Scholar
+    id: google-scholar
+    url: https://scholar.google.com/citations?user=L3yiAMcAAAAJ
+  - title: ORCID
+    id: orcid
+    url: https://orcid.org/0000-0001-9676-7422
+  - title: Web of Science
+    id: clarivate
+    url: https://www.webofscience.com/wos/author/record/ABH-6674-2020
+  - title: Scopus
+    id: scopus
+    url: https://www.scopus.com/authid/detail.uri?authorId=56123810600
+  - title: GitHub
+    id: github
+    url: https://github.com/piazzai
+  - title: Lichess
+    id: lichess
+    url: https://lichess.org/@/piazzai
