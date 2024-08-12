@@ -26,18 +26,7 @@
     <img class="particles-photo" src="assets/files/sim.photo.jpg" /> 
     <h1 class="particles-title">Rok Sim</h1>
     <h1 class="particles-subtitle">A linguist</h1>  
-    </div>
-    {% for icon in site.data.home.icons %}
-    <li class="mx-2">
-        <a class="icon-link" href="{{ icon.url }}">
-            <svg width="36" height="36" fill="currentColor">
-                <title>{{ icon.title }}</title>
-                <use xlink:href="#{{ icon.id }}" />
-            </svg>
-        </a>
-    </li>
-    {% endfor %}
-           
+         
     <div class="nowrap">
       {% if site.social.facebook %}
       <a class="particles-icon" href="https://www.facebook.com/{{ site.social.facebook }}">{% include svg/facebook.svg %}</a>
@@ -55,7 +44,7 @@
       <a class="particles-icon" href "https://www.linkedin.com/in/{{ site.social.linkedin }}">{% include svg/linkedin.svg %}</a>
       <a class="particles-icon" href="https://github.com/{{ site.social.github }}">{% include svg/github.svg %}</a>
       <a class="particles-icon" href="cv">{% include svg/cv-circled.svg %}</a>
-    
+     </div>
   </div>
   <div class="particles-scroll">
     <a class="particles-icon" href="#scroll">{% include svg/nav-arrow-down.svg %}</a>
