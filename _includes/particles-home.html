@@ -1,26 +1,28 @@
 <div id="particles-js" class="fullscreen">
   
-<nav class="nav nav-masthead justify-content-center float-md-end text-white">
-    {% assign links = site.pages | where_exp: "page", "page.name contains '.md'" %}
-    
-    <!-- First, display the current page link -->
-    {% for link in links %}
-    {% unless link.name contains 404 %}
-    {% if link.url == page.url %}
-    <a class="nav-link fw-bold py-1 px-1 active" aria-current="page" href="{{ link.url }}" style="color: white;">{{ link.title | upcase }}</a>
-    {% endif %}
-    {% endunless %}
-    {% endfor %}
-    
-    <!-- Then, display the other links, excluding the current page -->
-    {% for link in links %}
-    {% unless link.name contains 404 %}
-    {% if link.url != page.url %}
-    <a class="nav-link fw-bold py-1 px-1" href="{{ link.url }}" style="color: white;">{{ link.title | upcase }}</a>
-    {% endif %}
-    {% endunless %}
-    {% endfor %}
-</nav>
+{% comment %}
+          <nav class="nav nav-masthead justify-content-center float-md-end text-white">
+              {% assign links = site.pages | where_exp: "page", "page.name contains '.md'" %}
+              
+              <!-- First, display the current page link -->
+              {% for link in links %}
+              {% unless link.name contains 404 %}
+              {% if link.url == page.url %}
+              <a class="nav-link fw-bold py-1 px-1 active" aria-current="page" href="{{ link.url }}" style="color: white;">{{ link.title | upcase }}</a>
+              {% endif %}
+              {% endunless %}
+              {% endfor %}
+              
+              <!-- Then, display the other links, excluding the current page -->
+              {% for link in links %}
+              {% unless link.name contains 404 %}
+              {% if link.url != page.url %}
+              <a class="nav-link fw-bold py-1 px-1" href="{{ link.url }}" style="color: white;">{{ link.title | upcase }}</a>
+              {% endif %}
+              {% endunless %}
+              {% endfor %}
+          </nav>
+  {% comment %}
       
     <div class="jumbotron text-center">
     <img class="particles-photo" src="assets/files/sim.photo.jpg" /> 
