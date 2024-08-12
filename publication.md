@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: PUB
+title: Pub
 ---
 
 ### Paper
