@@ -9,12 +9,10 @@ title: Teaching
 - **Fall 2023**: Elementary Korean 121 (Instructor)
 
 ### University of South Carolina (Fall 2022 - Spring 2023)
-
 - **Spring 2023**: Introduction to Logic I (TA for Dr. Christopher Tollefsen)
 - **Fall 2022**: Introduction to Logic I (TA for Dr. Christopher Tollefsen)
 
 ### Korean School of Columbia (Fall 2019 - Spring 2022)
-
 - **Spring 2022**: Korean as a Foreign Language (Beginner, Elementary School Students)
 - **Fall 2021**: Korean as a Foreign Language (Beginner, Elementary School Students)
 - **Spring 2021**: Korean as a Foreign Language (Beginner, Elementary School Students)
